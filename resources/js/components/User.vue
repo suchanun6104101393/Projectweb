@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="container">
-            <h2>แสดงข้อมูล</h2>
+            <h2>แสดงข้อมูลผู้ใช้</h2>
             <table class="table table-bordered">
                 <tr>
                     <th>รหัส</th>

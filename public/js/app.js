@@ -37587,7 +37587,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", [
     _c("div", { staticClass: "container" }, [
-      _c("h2", [_vm._v("แสดงข้อมูล")]),
+      _c("h2", [_vm._v("แสดงข้อมูลผู้ใช้")]),
       _vm._v(" "),
       _c(
         "table",
