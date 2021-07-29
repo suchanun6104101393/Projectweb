@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="container">
-            <h2>แสดงข้อมูลผู้ใช้</h2>
+            <h2>แสดงข้อมูล</h2>
             <table class="table table-bordered">
                 <tr>
                     <th>รหัส</th>
@@ -15,10 +15,11 @@
                      <td>{{user.name}}</td>
                      <td>{{user.actor}}</td>
                      <td><a :href="'/users/'+user.id+'/edit'" class="btn btn-warning">Edit</a> </td>
-                    <td><a href="javascript:;" class="btn btn-danger" v-on:click="deleteUser(user.id,index)">Delete</a> </td>
+                     <td><a href="javascript:;" class="btn btn-danger" v-on:click="deleteUser(user.id,index)">Delete</a> </td>
                 </tr>
 
             </table>
+             <a href="/users/create" class="btn btn-primary">Insert</a>
         </div>
     </div>
 </template>
